@@ -42,11 +42,22 @@ dependencies {
     // Displaying images
     implementation 'com.github.bumptech.glide:glide:3.6.1'
 
+    // Core Firebase
     implementation 'com.google.firebase:firebase-core:16.0.1'
+
+    // Firebase Database for messages
     implementation 'com.google.firebase:firebase-database:16.0.1'
 
+    // Firebase Authentication
     implementation "com.google.firebase:firebase-auth:16.0.1"
+
+    // Firebase storage for photos
+    implementation "com.google.firebase:firebase-storage:16.0.1"
+
+    // Firebase UI for Auth
     implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
+
+    // Firebase Cloud messaging
 }
 
 apply plugin: 'com.google.gms.google-services'
